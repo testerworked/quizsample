@@ -22,7 +22,7 @@
         android:id="@+id/title"
         android:layout_width="236dp"
         android:layout_height="74dp"
-        android:text="@string/app_name"
+        android:text="@string/app_name_too"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView"

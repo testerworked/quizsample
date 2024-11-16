@@ -19,7 +19,7 @@ class QuestionActivity : AppCompatActivity() {
 
     private lateinit var radioGroup: RadioGroup
     private var score: Int = 0
-    private val questions = listOf(
+    private val questList = listOf(
         Question(
             "Когда была основана первая Болгарская империя?",
             "681 год",
@@ -94,8 +94,8 @@ class QuestionActivity : AppCompatActivity() {
     }
 
     private fun loadQuestion() {
-        if (questionIndex < questions.size) {
-            val question = questions[questionIndex]
+        if (questionIndex < questList.size) {
+            val question = questList[questionIndex]
             findViewById<TextView>(R.id.questions).text = question.question
 
             radioGroup.removeAllViews()

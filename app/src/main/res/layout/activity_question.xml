@@ -25,7 +25,6 @@
         app:layout_constraintTop_toBottomOf="@+id/questions"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp">
-        <!-- RadioButtons будут добавлены программно -->
     </RadioGroup>
 
     <Button
