@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QuizSample</string>
+    <string name="check_knowledge">Test your knowledge</string>
+    <string name="check_result">Результат</string>
+    <string name="check_description">Описание</string>
+    <string name="end_button">Закончить</string>
+    <string name="question_field">Вопрос?</string>
+    <string name="begin_button">Начать</string>
 </resources>
